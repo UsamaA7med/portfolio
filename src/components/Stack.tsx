@@ -8,27 +8,27 @@ import { SiExpress } from "react-icons/si";
 const stack = [
   {
     name: "Tailwind",
-    icon: <SiTailwindcss size={64} color="#38B2AC" />,
+    icon: <SiTailwindcss size={90} color="#38B2AC" />,
   },
   {
     name: "React",
-    icon: <FaReact size={64} color="#61DAFB" />,
+    icon: <FaReact size={90} color="#61DAFB" />,
   },
   {
     name: "TypeScript",
-    icon: <SiTypescript size={64} color="#3178C6" />,
+    icon: <SiTypescript size={90} color="#3178C6" />,
   },
   {
     name: "Node.js",
-    icon: <IoLogoNodejs size={64} color="#3C873A" />,
+    icon: <IoLogoNodejs size={90} color="#3C873A" />,
   },
   {
     name: "Express",
-    icon: <SiExpress size={64} color="#000000" />,
+    icon: <SiExpress size={90} color="#000000" />,
   },
   {
     name: "MongoDB",
-    icon: <SiMongodb size={64} color="#47A248" />,
+    icon: <SiMongodb size={90} color="#47A248" />,
   },
 ];
 const Stack = () => {

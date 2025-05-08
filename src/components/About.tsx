@@ -27,7 +27,7 @@ const About = () => {
         <p className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
           Open for work
         </p>
-        <h1 className="text-white/40 text-7xl font-black">Hi, I'm </h1>
+        <h1 className="text-white/40 text-7xl font-black">Hi, I am </h1>
         <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text font-black leading-tight text-transparent md:text-7xl">
           Osama Ahmed
         </h1>
@@ -47,7 +47,7 @@ const About = () => {
               alt="object"
             />
           ))}
-          <p className="font-medium">80+ Happy Clients</p>
+          <p className="font-medium">2+ Happy Clients</p>
         </div>
         <p className="my-6 max-w-xl text-2xl">Fullstack Developer</p>
         <motion.button

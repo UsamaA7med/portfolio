@@ -1,21 +1,20 @@
 const services = [
   {
     id: 1,
-    name: "Web Development",
+    name: "Frontend Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptas.",
+      "build and maintain responsive web applications using React, Next.js, and Tailwind CSS.",
   },
   {
     id: 2,
-    name: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptas.",
+    name: "backend Development",
+    description: "build restful APIs using Node.js, Express.js, and MongoDB.",
   },
   {
     id: 3,
-    name: "Web Development",
+    name: "SEO Optimization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptas.",
+      "Enhancing your website's visibility and ranking on search engines through strategic keyword integration and technical optimization",
   },
 ];
 const Services = () => {
@@ -23,14 +22,14 @@ const Services = () => {
     <section id="services" className="text-white px-4 py-20">
       <div className="container mx-auto flex flex-col  gap-10 lg:flex-row">
         <div className="md:w-1/4 pr-8 mb-12 md:mb-0">
-          <h2 className="uppercase text-6xl font-extrabold sticky top-20">
+          <h2 className="uppercase text-purple-300 text-6xl font-extrabold sticky top-20">
             services
           </h2>
         </div>
         <div className="md:w-3/4">
           {services.map((service) => (
             <div key={service.id} className="mb-16 flex items-start">
-              <div className="text-gray-300 font-bold text-5xl mr-6">
+              <div className="text-purple-300 font-bold text-5xl mr-6">
                 {service.id}
               </div>
               <div>

@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import KeyMetrics from "./components/KeyMetrics";
 import LogoAnimation from "./components/LogoAnimation";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ function App() {
       <KeyMetrics />
       <Services />
       <Contact />
+      <Footer />
     </div>
   );
 }
