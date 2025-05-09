@@ -41,15 +41,17 @@ const About = () => {
           <p className="font-medium">2+ Happy Clients</p>
         </div>
         <p className="my-6 max-w-xl text-2xl">Fullstack Developer</p>
-        <motion.button
-          style={{ border, boxShadow }}
-          whileHover={{ scale: 1.015 }}
-          whileTap={{ scale: 0.985 }}
-          className="flex w-fit rounded-full items-center gap-3 px-6 py-2 cursor-pointer"
-        >
-          Download CV
-          <FiArrowRight />
-        </motion.button>
+        <a href="/cv.pdf" download>
+          <motion.button
+            style={{ border, boxShadow }}
+            whileHover={{ scale: 1.015 }}
+            whileTap={{ scale: 0.985 }}
+            className="flex w-fit rounded-full items-center gap-3 px-6 py-2 cursor-pointer"
+          >
+            Download CV
+            <FiArrowRight />
+          </motion.button>
+        </a>
       </div>
       <div className="bg-circle-container">
         <div className="bg-circle-background"></div>
