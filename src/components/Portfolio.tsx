@@ -1,5 +1,5 @@
 import { useState } from "react";
-import project1 from "/home/osama/cv projects/portfolio/src/assets/proj5.png";
+import project1 from "/proj5.png";
 import { animate } from "motion";
 import { useMotionTemplate, useMotionValue, motion } from "motion/react";
 import { BsGithub } from "react-icons/bs";

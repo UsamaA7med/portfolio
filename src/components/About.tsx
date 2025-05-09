@@ -32,20 +32,11 @@ const About = () => {
           Osama Ahmed
         </h1>
         <div>
-          <img
-            width={250}
-            src="src/assets/profilepic.png"
-            alt="profile image"
-          />
+          <img width={250} src="/profilepic.png" alt="profile image" />
         </div>
         <div className="flex justify-center shadow-xl bg-white/10 items-center gap-4 rounded-full px-4 py-2 ">
           {[...Array(3)].map((_, i) => (
-            <img
-              key={i + 1}
-              src="src/assets/obj1.png"
-              width={30}
-              alt="object"
-            />
+            <img key={i + 1} src="/obj1.png" width={30} alt="object" />
           ))}
           <p className="font-medium">2+ Happy Clients</p>
         </div>
